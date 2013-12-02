@@ -1,10 +1,10 @@
 <?php
 
-/*Saving the Uploaded File
-The examples above create a temporary copy of the uploaded files in the PHP temp folder on the server.
+/*Guardar el archivo de Subida
+Los ejemplos de arriba crean una copia temporal de los archivos cargados en la carpeta temporal de PHP en el servidor.
 
-The temporary copied files disappears when the script ends. To store the uploaded file
-we need to copy it to a different location:*/
+Los archivos copiados temporales desaparece cuando termina la secuencia de comandos. Para almacenar el archivo cargado
+tenemos que copiarlo en una ubicación diferente:*/
 
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
